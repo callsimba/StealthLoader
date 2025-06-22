@@ -57,3 +57,36 @@ python3 encrypt_payload.py \
   --input path/to/your_executable.exe \
   --pubkey rsa_pub.pem \
   --output payload.enc
+   --input : path to the clear-text payload
+
+   --pubkey: RSA public key (rsa_pub.pem)
+   
+   --output : encrypted payload file (payload.enc)
+
+
+2. Host the encrypted files
+Place payload.enc and rsa_priv.pem on an HTTPS-accessible server.
+
+
+
+Contributing
+Contributions, issues, and suggestions are welcome!
+
+Fork the repo
+
+Create a feature branch (git checkout -b feature/YourFeature)
+
+Commit your changes (git commit -m "Add awesome feature")
+
+Push to GitHub (git push origin feature/YourFeature)
+
+Open a Pull Request
+
+License
+This project is licensed under the MIT License. See LICENSE for details.
+
+Author & Contact
+Call Simba
+Telegram: @lets_sudosu
+
+Let’s make the world a better place—one clean payload at a time!
